@@ -16,6 +16,7 @@
 		B73CAE8E233FED8000C5CC3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73CAE8C233FED8000C5CC3B /* LaunchScreen.storyboard */; };
 		B73CAE99233FED8000C5CC3B /* swift_journal_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CAE98233FED8000C5CC3B /* swift_journal_appTests.swift */; };
 		B73CAEA4233FED8000C5CC3B /* swift_journal_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CAEA3233FED8000C5CC3B /* swift_journal_appUITests.swift */; };
+		B73CAEB2233FEECB00C5CC3B /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CAEB1233FEECB00C5CC3B /* JournalEntry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B73CAE9F233FED8000C5CC3B /* swift-journal-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-journal-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73CAEA3233FED8000C5CC3B /* swift_journal_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_journal_appUITests.swift; sourceTree = "<group>"; };
 		B73CAEA5233FED8000C5CC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B73CAEB1233FEECB00C5CC3B /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				B73CAE8C233FED8000C5CC3B /* LaunchScreen.storyboard */,
 				B73CAE8F233FED8000C5CC3B /* Info.plist */,
 				B73CAE82233FED7B00C5CC3B /* swift_journal_app.xcdatamodeld */,
+				B73CAEB1233FEECB00C5CC3B /* JournalEntry.swift */,
 				B73CAE89233FED8000C5CC3B /* Preview Content */,
 			);
 			path = "swift-journal-app";
@@ -272,6 +275,7 @@
 			files = (
 				B73CAE84233FED7B00C5CC3B /* swift_journal_app.xcdatamodeld in Sources */,
 				B73CAE7F233FED7B00C5CC3B /* AppDelegate.swift in Sources */,
+				B73CAEB2233FEECB00C5CC3B /* JournalEntry.swift in Sources */,
 				B73CAE86233FED7B00C5CC3B /* ContentView.swift in Sources */,
 				B73CAE81233FED7B00C5CC3B /* SceneDelegate.swift in Sources */,
 			);
